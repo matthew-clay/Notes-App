@@ -12,39 +12,28 @@
     <!-- app -->
     <main class="flex h-full notes" id="app">
       <!-- siderbar -->
-      <section
-        class="w-72 p-4 border-r-2 divide-solid border-gray-400 flex-shrink-0 overflow-y-auto notes-sidebar"
-      >
-        <button
-          class="w-full bg-blue-500 hover:bg-blue-600 border-none rounded-lg text-white cursor-pointer text-xl font-bold mb-5 py-3 notes-btn"
-        >
+      <section class="w-72 p-4 border-r-2 divide-solid border-gray-400 flex-shrink-0 overflow-y-auto notes-sidebar">
+        <button class="w-full bg-blue-500 hover:bg-blue-600 border-none rounded-lg text-white cursor-pointer text-xl font-bold mb-5 py-3 notes-btn">
           Save Note
         </button>
         <div class="notes-list">
           <div class="cursor-pointer flex flex-col notes-list-item selected">
             <h6 class="notes-title text-base p-3">Lecture Notes</h6>
-            <p class="notes-description text-sm px-3">
+            <p class="notes-description select-none text-sm px-3">
               I learnt nothing today.
             </p>
-            <span
-              class="notes-datetime p-3 font-semibold text-xs text-right text-gray-600"
-              >Thursday 3:30 pm</span
-            >
+            <span class="notes-datetime p-3 select-none font-semibold text-xs text-right text-gray-600">
+              Thursday 3:30 pm
+            </span>
           </div>
         </div>
       </section>
       <!-- preview -->
       <section class="flex flex-col px-12 py-8 flex-grow preview">
-        <input
-          class="w-full border-none outline-none title text-5xl font-bold"
-          type="text"
-          placeholder="Enter a title..."
-        />
-        <textarea
-          class="w-full border-none outline-none flex-grow text-xl leading-6 mt-8 resize-none description"
-        >
-I am the notes description...</textarea
-        >
+        <input class="w-full border-none outline-none title text-5xl font-bold" type="text" placeholder="Enter a title..."/>
+        <textarea class="w-full border-none outline-none flex-grow text-xl leading-6 mt-8 resize-none description">
+          I am the notes description...
+          </textarea>
       </section>
     </main>
     <!-- js -->

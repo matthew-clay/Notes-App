@@ -478,6 +478,10 @@ body{
   --tw-backdrop-sepia:  ;
 }
 
+.static{
+  position: static;
+}
+
 .mb-5{
   margin-bottom: 1.25rem;
 }
@@ -512,6 +516,13 @@ body{
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.select-none{
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .resize-none{
@@ -594,6 +605,11 @@ body{
   line-height: 1.5rem;
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
@@ -604,25 +620,12 @@ body{
   line-height: 1;
 }
 
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .font-bold{
   font-weight: 700;
 }
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-normal{
-  font-weight: 400;
-}
-
-.font-light{
-  font-weight: 300;
 }
 
 .leading-6{
